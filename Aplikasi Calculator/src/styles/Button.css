@@ -1,0 +1,22 @@
+.calculator-button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.calculator-button:hover {
+  background-color: #e0e0e0;
+}
+
+.calculator-button:active {
+  background-color: #d0d0d0;
+}
